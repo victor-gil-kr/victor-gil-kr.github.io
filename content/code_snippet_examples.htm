@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_SideNav" data-mc-search-type="Stem" data-mc-help-system-file-name="Index.xml" data-mc-path-to-help-system="../" data-mc-output-analytics-server="https://api.madcapcentral.com/" data-mc-output-analytics-topic-id="1xBCeJNnhjD9mLhrZ8qeZhM7decZjmYSLUTHWaeX+qwiXLGGzckedqsJNsjVXPRel/gI1JhFmfq2rflcSV6JK/grwthN3YjxN/Yv8nkFAjnuFC4aWCdLgq5BzYYbClQrkNntdKqCDN6AALWVIh9vT4UtQgiFmQY+" data-mc-has-content-body="True" data-mc-toc-path="Scripts" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="audience" content="External" />
+        <meta name="category" content="Category Management" />
+        <meta name="document" content="OnLine Expert" />
+        <meta name="version" content="2021.1.2.0" />
+        <meta name="product" content="Space Automation Professional" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta http-equiv="Cache-control" content="no-store" />
+        <meta name="author" content="" /><title>Code snippet examples</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.help-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <style>/*&lt;meta /&gt;*/
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <link href="resources/stylesheets/by_styles.css" rel="stylesheet" type="text/css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script>/* <![CDATA[ */
+			document.title = document.title + " - OnLine Expert";
+		/* ]]> */</script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar_Bottom.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="navigation" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search the OnLine Expert" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="Search all topics" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Search all topics</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <script type="text/javascript">/*<![CDATA[*/(function () {
+			if ($(".body-container").length === 1) {
+			var bodyContainer = $('.body-container')[0];
+			var mybutton = document.createElement("button");          // Create a <button> node
+			var textnode = document.createTextNode("Top");          // Create a text node
+			mybutton.appendChild(textnode);                            // Append the text
+			mybutton.setAttribute("id", "myBtn");                    // Set id
+			mybutton.addEventListener("click", topFunction);        // Set onclick event handler
+        
+			bodyContainer.appendChild(mybutton);    // Append button element to main element
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			//Both functions are used based on the responsive portion of the output
+			bodyContainer.onscroll = function() {scrollFunction()};
+			window.onscroll = function() {scrollFunctionx()};
+
+			function scrollFunction() {
+			if (bodyContainer.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+			} else {
+			mybutton.style.display = "none";
+			}
+			}
+    
+			function scrollFunctionx() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+			} else {
+			mybutton.style.display = "none";
+			}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			$('html, body').animate({ scrollTop: 0 }, "smooth");
+			$('html, documentElement').animate({ scrollTop: 0 }, "smooth");
+			$('.body-container').animate({ scrollTop: 0 }, "smooth");
+			}
+			}
+		})();/*]]>*/</script>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="text-align: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie help-button" onclick="showHelp()" title="Need help using the OnLine Expert?">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie remove-highlight-button" title="Remove highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="4" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Space Automation Professional  2021.1.2.0 OnLine Expert &gt;</span>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    <div class="side-content">
+                                        <div class="side-menu">
+                                            <p style="border-bottom: 1px solid #b8b8b8; margin-top: 0px;padding-bottom: 0px;">In this topic</p>
+                                            <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container=".body-container" data-scroll-container-on="only screen and (min-width: 1280px)" class="nocontent menu _Skins_SideMenu mc-component">
+                                                <li><a href="#Codesnippetexamples">Code snippet examples</a>
+                                                </li>
+                                                <ul>
+                                                    <li><a href="#Insertacodesnippet">Insert a code snippet</a>
+                                                    </li>
+                                                    <li><a href="#ExampleGetandsetfieldvaluesforSpacePlanningrecords">Example: Get and set field values for Space Planning records</a>
+                                                    </li>
+                                                    <li><a href="#ExampleSetfieldvaluesforallSpacePlanningrecords">Example: Set field values for all Space Planning records</a>
+                                                    </li>
+                                                    <li><a href="#ExampleGetandsetfieldvaluesforFloorPlanningrecords">Example: Get and set field values for Floor Planning records</a>
+                                                    </li>
+                                                    <li><a href="#ExampleSetfieldvaluesforallFloorPlanningrecords">Example: Set field values for all Floor Planning records</a>
+                                                    </li>
+                                                    <li><a href="#ExampleExecuteadatabasequerySQLServer">Example: Execute a database query (SQL Server)</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="TopicBody">
+                                                    <div role="main" id="mc-main-content">
+                                                        <h1 id="Codesnippetexamples" data-magellan-target="Codesnippetexamples">Code snippet examples</h1>
+                                                        <p>Some tasks previously supported by commands in legacy Space Automation do not require explicit commands in Space Automation Professional. Instead, code snippets can be used to perform these tasks. The following code snippets are available:</p>
+                                                        <ul>
+                                                            <li><span class="specialbold">GetAndSetSpaceFieldValuesForAllRecords</span>: Used to retrieve and set values for records in Space Planning.</li>
+                                                            <li><span class="specialbold">GetAndSetFloorFieldValuesForAllRecords</span>: Used to retrieve and set values for records in Floor Planning.</li>
+                                                            <li><span class="specialbold">SetSpaceFieldValueForAllRecords</span>: Used to set values for records in Space Planning.</li>
+                                                            <li><span class="specialbold">SetFloorFieldValueForAllRecords</span>: Used to set values for records in Floor Planning.</li>
+                                                            <li><span class="specialbold">ExecuteDatabaseQuery</span>: Used to retrieve data from a Category Knowledge Base database.</li>
+                                                        </ul>
+                                                        <h2 id="Insertacodesnippet" data-magellan-target="Insertacodesnippet"><a name="Insert_a_code_snippet"></a>Insert a code snippet</h2>
+                                                        <ol>
+                                                            <li value="1">Right-click the script window and select <b>Insert Snippet</b>. The snippet menu is displayed.</li>
+                                                            <li value="2">From the snippet menu, select JDA.Intactix.Automation.CodeSnippets. A submenu is displayed.</li>
+                                                            <li value="3">From the submenu, select the appropriate option (<b>Database</b>, <b>FloorPlanning</b>, or <b>SpacePlanning</b>). A submenu is displayed.</li>
+                                                            <li value="4">From the submenu, select the code snippet to be inserted. The snippet is added to the active script.</li>
+                                                        </ol>
+                                                        <div class="Note">
+                                                            <p><b class="NoteHeadingBold">Note</b>: You can enter the name of the code snippet and then press <b>Tab </b>to insert the snippet into the script:</p>
+                                                            <ul>
+                                                                <li>GetAndSetSpaceFieldValuesForAllRecords</li>
+                                                                <li>GetAndSetFloorFieldValuesForAllRecords</li>
+                                                                <li>SetSpaceFieldValueForAllRecords</li>
+                                                                <li>SetFloorFieldValueForAllRecords</li>
+                                                                <li>ExecuteDatabaseQuery</li>
+                                                            </ul>
+                                                            <p>You can also enter the first letters of the snippet name followed by a question mark (?) and then press <b>Tab</b> to display all snippets that begin with those letters.</p>
+                                                        </div>
+                                                        <h2 id="ExampleGetandsetfieldvaluesforSpacePlanningrecords" data-magellan-target="ExampleGetandsetfieldvaluesforSpacePlanningrecords">Example: Get and set field values for Space Planning records</h2>
+                                                        <h3>Classic style scripting </h3>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #969896; ">' This script opens a sample project, selects objects on the planogram, and then modifies the selected objects.</span><br /><span style="color: #969896; ">' Open a project.</span><br />SpacePlanning.OpenProjectFile(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Samples\Space Planning Planograms\Sample - Merchandising Styles.psa"</span>)<br /><span style="color: #969896; ">' Update the Date Modified field with the current system date.</span><br />SpacePlanning.SetPlanogramField(<span style="color: #df5000; ">"12' Position Merchandising"</span>, SpacePlanogramFields.DateModified, Now)<br /><span style="color: #969896; ">' This section uses Select commands to select the object to be processed, and Set Field commands to modify the object properties.</span><br />SpacePlanning.SetSegmentField(1, SpaceSegmentFields.Height, 100)<br />SpacePlanning.SetDrawingField(<span style="color: #df5000; ">"Case"</span>, SpaceDrawingFields.BackColor, RGB(241, 196, 15))<br />SpacePlanning.SelectFixture(<span style="color: #df5000; ">"2"</span>)<br />SpacePlanning.SetPositionField(<span style="color: #df5000; ">"0002222222222"</span>, SpacePositionFields.HFacings, 5, <span style="color: #df5000; ">"2"</span>)<br />SpacePlanning.SelectSegment(1, <span style="color: #63a35c; ">True</span>)<br />SpacePlanning.SelectPositionByLocationID(2, <span style="color: #63a35c; ">True</span>)<br /><span style="color: #969896; ">' This section gets the active position, and then uses Instance support to modify the object properties.</span><br /><span style="color: #a71d5d; ">Dim</span> myPos <span style="color: #a71d5d; ">As</span> Space.Position<br />myPos = SpacePlanning.ActivePosition<br />myPos.Roll = 12<br /><span style="color: #969896; ">' This section uses object-specific Set Field commands to modify field values for each object type.</span><br />SpacePlanning.SetPlanogramField(<span style="color: #df5000; ">"12' Position Merchandising"</span>, SpacePlanogramFields.Color, RGB(241, 196, 15))<br />SpacePlanning.SetSegmentField(2, SpaceSegmentFields.Height, 45)<br />SpacePlanning.SetFixtureField(<span style="color: #df5000; ">"3"</span>, SpaceFixtureFields.Height, 5)<br />SpacePlanning.SetPerformanceField(<span style="color: #df5000; ">"0004444444444"</span>, SpacePerformanceFields.Desc1, <span style="color: #df5000; ">"This is sample text"</span>)<br />SpacePlanning.SetDrawingField(<span style="color: #df5000; ">"The Green product ..."</span>, SpaceDrawingFields.<span style="color: #a71d5d; ">String</span>, <span style="color: #df5000; ">"THIS IS NEW TEXT"</span>)<br />SpacePlanning.SetProductField(<span style="color: #df5000; ">"0004444444444"</span>, SpaceProductFields.UPC, Rnd(13).ToString())<br /><span style="color: #969896; ">' This section selects the positions to be processed, and then sets the color of the associated products.</span><br />SpacePlanning.SelectPosition(<span style="color: #df5000; ">"0002222222222"</span>)<br />SpacePlanning.SelectPosition(<span style="color: #df5000; ">"0003333333333"</span>)<br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> myObj <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">Object</span> <span style="color: #a71d5d; ">In</span> SpacePlanning.ForSelectedObjects()<br />&#160;&#160;&#160;&#160;SpacePlanning.SetProductField(<span style="color: #a71d5d; ">CType</span>(myObj, Space.Position).Product.ID, SpaceProductFields.Color, RGB(93, 109, 126))<br /><span style="color: #a71d5d; ">Next</span><br /><span style="color: #969896; ">' This section selects a fixture using its Location ID, sets a Position field value, and then copies another value from one Position field into another for the positions on the selected fixture.</span><br />SpacePlanning.SelectFixtureByLocationID(1)<br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> myPos2 <span style="color: #a71d5d; ">As</span> Space.Position <span style="color: #a71d5d; ">In</span> SpacePlanning.ForFixturePositions()<br />&#160;&#160;&#160;&#160;myPos2.HFacings = 2<br />&#160;&#160;&#160;&#160;myPos2.Desc1 = myPos2.Product.Name<br /><span style="color: #a71d5d; ">Next</span></code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h3>Instance style scripting</h3>
+                                                        <p>Not Applicable</p>
+                                                        <h2 id="ExampleSetfieldvaluesforallSpacePlanningrecords" data-magellan-target="ExampleSetfieldvaluesforallSpacePlanningrecords">Example: Set field values for all Space Planning records</h2>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #969896; ">' This script opens a sample project and then removes data from products in the project.</span><br /><span style="color: #969896; ">' Open a project.</span><br />SpacePlanning.OpenProjectFile(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Samples\Space Planning Planograms\Sample - Coffee Makers.psa"</span>)<br /><span style="color: #969896; ">' Set various Product field values to 0.</span><br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> prod <span style="color: #a71d5d; ">As</span> Space.Product <span style="color: #a71d5d; ">In</span> SpacePlanning.ForProducts()<br />&#160;&#160;&#160;&#160;prod.UnitMovement = 0<br />&#160;&#160;&#160;&#160;prod.UnitCost = 0<br />&#160;&#160;&#160;&#160;prod.Price = 0<br /><span style="color: #a71d5d; ">Next</span></code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h2 id="ExampleGetandsetfieldvaluesforFloorPlanningrecords" data-magellan-target="ExampleGetandsetfieldvaluesforFloorPlanningrecords">Example: Get and set field values for Floor Planning records</h2>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #969896; ">' This script opens a sample project, selects objects on the floorplan, and then modifies the selected objects.</span><br /><span style="color: #969896; ">' Open the sample file.</span><br />FloorPlanning.OpenProjectFile(<span style="color: #df5000; ">"C:\Program Files (X86)\JDA\Intactix\Samples\Floor Planning Floorplans\Sample - Store 001.pfa"</span>)<br /><span style="color: #969896; ">' Select the floorplan in the project containing the objects to be processed.</span><br />FloorPlanning.SelectFloorplan(<span style="color: #df5000; ">"001 sample store"</span>)<br /><span style="color: #969896; ">' This section uses Select commands to select the object to be processed, and Set Field and SetFieldValue commands to modify object colors.</span><br />FloorPlanning.SetDepartmentField(<span style="color: #df5000; ">"GROCERY"</span>, FloorDepartmentFields.Color, RGB(255, 150, 120))<br />FloorPlanning.SetPlanogramField(<span style="color: #df5000; ">"001006"</span>, FloorPlanogramFields.Color, RGB(255, 0, 0))<br />FloorPlanning.SelectFixtureByLocationID(37)<br />FloorPlanning.SetFieldValue(FloorSetFieldObject.Fixture, FloorFixtureFields.Color, RGB(255, 0, 0))<br />FloorPlanning.SelectSectionByLocationID(16)<br />FloorPlanning.SetFieldValue(FloorSetFieldObject.Planogram, FloorPlanogramFields.Color, RGB(255, 0, 0))<br /><span style="color: #969896; ">' This section uses object-specific Set Field commands to modify field values for each object type.</span><br />FloorPlanning.SetFloorplanField(<span style="color: #df5000; ">"001 sample store"</span>, FloorplanFields.FloorColor, RGB(255, 120, 110))<br />FloorPlanning.SetDepartmentField(<span style="color: #df5000; ">"Snacks"</span>, FloorDepartmentFields.Color, RGB(255, 0, 0))<br />&#160;FloorPlanning.SetFixtureField(<span style="color: #df5000; ">"0045(DAIRY)"</span>, FloorFixtureFields.Depth, 100)<br />FloorPlanning.SetPerformanceField(<span style="color: #df5000; ">"001006"</span>, FloorPerformanceFields.Desc1, <span style="color: #df5000; ">"This is Sample Text"</span>)<br />FloorPlanning.SetSectionField(<span style="color: #df5000; ">"011152"</span>, FloorSectionFields.DepartmentOverride, <span style="color: #df5000; ">"Grocery"</span>)<br /><span style="color: #969896; ">' This section uses a ForSelectedObjects loop to change the color of selected sections.</span><br />FloorPlanning.SelectSection(<span style="color: #df5000; ">"012159"</span>, , , , <span style="color: #63a35c; ">True</span>)<br />FloorPlanning.SelectSection(<span style="color: #df5000; ">"012160"</span>, , , , <span style="color: #63a35c; ">False</span>)<br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> selObject <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">Object</span> <span style="color: #a71d5d; ">In</span> FloorPlanning.ForSelectedObjects()<br />&#160;&#160;&#160;&#160;FloorPlanning.SetFieldValue(FloorSetFieldObject.Planogram, FloorPlanogramFields.Color, RGB(111, 140, 145))<br /><span style="color: #a71d5d; ">Next</span><br /><span style="color: #969896; ">' This section copies the field value from one Planogram field to another.</span><br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> pog <span style="color: #a71d5d; ">As</span> Floor.Planogram <span style="color: #a71d5d; ">In</span> FloorPlanning.ForPlanograms<br />&#160;&#160;&#160;&#160;pog.Value31 = pog.Value1<br /><span style="color: #a71d5d; ">Next</span></code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h2 id="ExampleSetfieldvaluesforallFloorPlanningrecords" data-magellan-target="ExampleSetfieldvaluesforallFloorPlanningrecords">Example: Set field values for all Floor Planning records</h2>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #969896; ">' This script opens a sample project and then removes data from planograms in the project.</span><br /><span style="color: #969896; ">' Open a project.</span><br />FloorPlanning.OpenProjectFile(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Samples\Floor Planning Floorplans\CatMan Store.pfa"</span>)<br /><span style="color: #969896; ">' Set various Planogram field values to 0.</span><br /><span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> pog <span style="color: #a71d5d; ">As</span> Floor.Planogram <span style="color: #a71d5d; ">In</span> FloorPlanning.ForPlanograms()<br />&#160;&#160;&#160;&#160;pog.Value1 = 0<br />&#160;&#160;&#160;&#160;pog.Value2 = 0<br />&#160;&#160;&#160;&#160;pog.Value3 = 0<br /><span style="color: #a71d5d; ">Next</span></code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h2 id="ExampleExecuteadatabasequerySQLServer" data-magellan-target="ExampleExecuteadatabasequerySQLServer">Example: Execute a database query (SQL Server)</h2>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #969896; ">' Add "Imports System.Data.SqlClient" in import section at the top of script</span><br /><span style="color: #969896; ">' Update the following section with the appropriate database details.</span><br /><span style="color: #969896; ">' Example:</span><br /><span style="color: #969896; ">'Dim Server As String = "(local)"</span><br /><span style="color: #969896; ">'Dim Database As String = "CKB_2016"</span><br /><span style="color: #969896; ">'Dim DBUsername As String = "sa"</span><br /><span style="color: #969896; ">'Dim DBPassword As String = "admin$123"</span><br /><br /><span style="color: #a71d5d; ">Dim</span> Server <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #df5000; ">"Server Name"</span><br /><span style="color: #a71d5d; ">Dim</span> Database <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #df5000; ">"Database Name"</span><br /><span style="color: #a71d5d; ">Dim</span> DBUsername <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #df5000; ">"User Name"</span><br /><span style="color: #a71d5d; ">Dim</span> DBPassword <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #df5000; ">"Password"</span><br /><span style="color: #969896; ">' For Windows login, connectionstring = "Server= localhost; Database= employeedetails; Integrated Security=True;"</span>&#160;<br /><span style="color: #a71d5d; ">Dim</span> SQLConnectionString <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #a71d5d; ">String</span>.Format(<span style="color: #df5000; ">"Server={0}; Database={1}; User Id={2}; Password={3}"</span>, Server, Database, DBUsername, DBPassword)<br /><span style="color: #a71d5d; ">Dim</span> planogramarray <span style="color: #a71d5d; ">As</span> <span style="color: #0086b3; ">New</span> ArrayList()<br /><span style="color: #969896; ">' Create a database connection to execute a custom query on the SQL database.</span>&#160;<br /><span style="color: #a71d5d; ">Try</span><br />&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Using</span> DBConnection <span style="color: #a71d5d; ">As</span> <span style="color: #0086b3; ">New</span> SqlConnection(SQLConnectionString)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DBConnection.Open()<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">' Update the following query as appropriate.</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Dim</span> sqlString <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> = <span style="color: #df5000; ">"SELECT * from ix_spc_planogram where status1= 'live'"</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">' Create a dataset.</span>&#160;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Dim</span> myDataSet <span style="color: #a71d5d; ">As</span> DataSet = <span style="color: #0086b3; ">New</span> DataSet()<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">' Create the data adapter.</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Dim</span> SQLAdapter <span style="color: #a71d5d; ">As</span> SqlDataAdapter = <span style="color: #0086b3; ">New</span> SqlDataAdapter(sqlString, DBConnection)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">'Fill the data adapter with the dataset.</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SQLAdapter.Fill(myDataSet)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">'Create a datatable.</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Dim</span> planogramTable <span style="color: #a71d5d; ">As</span> DataTable = <span style="color: #0086b3; ">New</span> DataTable()<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">' Initialize the datatable.</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;planogramTable = myDataSet.Tables(0)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #969896; ">'Add the DBkey (Note: The DBkey is a keyword, but this field name could be anything - not a CKB field.)</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> tblRow <span style="color: #a71d5d; ">As</span> DataRow <span style="color: #a71d5d; ">In</span> planogramTable.Rows<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;planogramarray.Add(tblRow(<span style="color: #df5000; ">"DBkey"</span>))<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Next</span><br />&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">End</span> <span style="color: #a71d5d; ">Using</span><br />&#160;&#160;&#160;&#160;<span style="color: #969896; ">'After getting the list of suitable planogram DBkeys, open each of the planograms in Space Planning using its DBKey.</span>&#160;<br />&#160;&#160;&#160;&#160;SpacePlanning.SelectDatabase(Database + <span style="color: #df5000; ">"|"</span> + Server + <span style="color: #df5000; ">"|"</span> + DBUsername)<br />&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">For</span> <span style="color: #a71d5d; ">Each</span> dbkey <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">Integer</span> <span style="color: #a71d5d; ">In</span> planogramarray<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SpacePlanning.OpenPlanogramFromDatabase(dbkey)<br />&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Next</span><br />&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">Catch</span> ex <span style="color: #a71d5d; ">As</span> Exception<br />&#160;&#160;&#160;&#160;MsgBox(ex.Message)<br /><span style="color: #a71d5d; ">End</span> <span style="color: #a71d5d; ">Try</span></code></pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar_Bottom mc-component nocontent" style="text-align: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="master-page-footer">
+                                            <div>
+                                                <p style="line-height: 100%;"><span class="mc-variable Variables.PROD_SHORT variable">Space Automation Professional</span> <span class="mc-variable Variables.PROD_VERSION variable">2021.1.2.0</span> <span class="mc-variable Variables.TECH_DOC_TYPE variable">OnLine Expert</span> </p>
+                                                <p style="line-height: 100%;">© <span class="mc-variable Variables.COPYRIGHT_START variable">2013-</span>2021 Blue Yonder Group, Inc. All rights reserved. <a href="legal_notice.htm">Legal notice</a></p>
+                                                <p style="line-height: 100%;">Contact: <a href="https://success.blueyonder.com/" target="_blank" title="Blue Yonder Customer Support" alt="Blue Yonder Customer Support">Customer Support</a> | <a href="https://blueyonder.com/services" target="_blank" title="Blue Yonder Services" alt="Blue Yonder Services">Services</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

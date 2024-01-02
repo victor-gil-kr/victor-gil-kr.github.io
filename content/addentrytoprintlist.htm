@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_SideNav" data-mc-search-type="Stem" data-mc-help-system-file-name="Index.xml" data-mc-path-to-help-system="../" data-mc-output-analytics-server="https://api.madcapcentral.com/" data-mc-output-analytics-topic-id="1xBCeJNnhjD9mLhrZ8qeZhM7decZjmYSLUTHWaeX+qwiXLGGzckedqsJNsjVXPRe79SIcKcPPNcjejRkNL7jgA0Bjb99fgY/gtha/BqS2CREAX68tr+s2Swo5+Ni8DJFrVZRLlFReszhExNgLt260g==" data-mc-has-content-body="True" data-mc-toc-path="Space Planning commands" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="audience" content="External" />
+        <meta name="category" content="Category Management" />
+        <meta name="document" content="OnLine Expert" />
+        <meta name="version" content="2021.1.2.0" />
+        <meta name="product" content="Space Automation Professional" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta http-equiv="Cache-control" content="no-store" />
+        <meta name="author" content="" /><title>AddEntryToPrintList</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/stylesheets/mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.help-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <style>/*&lt;meta /&gt;*/
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <link href="resources/tablestyles/field_descriptions.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="resources/stylesheets/by_styles.css" rel="stylesheet" type="text/css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script>/* <![CDATA[ */
+			document.title = document.title + " - OnLine Expert";
+		/* ]]> */</script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar_Bottom.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="navigation" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search the OnLine Expert" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="Search all topics" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Search all topics</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <script type="text/javascript">/*<![CDATA[*/(function () {
+			if ($(".body-container").length === 1) {
+			var bodyContainer = $('.body-container')[0];
+			var mybutton = document.createElement("button");          // Create a <button> node
+			var textnode = document.createTextNode("Top");          // Create a text node
+			mybutton.appendChild(textnode);                            // Append the text
+			mybutton.setAttribute("id", "myBtn");                    // Set id
+			mybutton.addEventListener("click", topFunction);        // Set onclick event handler
+        
+			bodyContainer.appendChild(mybutton);    // Append button element to main element
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			//Both functions are used based on the responsive portion of the output
+			bodyContainer.onscroll = function() {scrollFunction()};
+			window.onscroll = function() {scrollFunctionx()};
+
+			function scrollFunction() {
+			if (bodyContainer.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+			} else {
+			mybutton.style.display = "none";
+			}
+			}
+    
+			function scrollFunctionx() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+			} else {
+			mybutton.style.display = "none";
+			}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			$('html, body').animate({ scrollTop: 0 }, "smooth");
+			$('html, documentElement').animate({ scrollTop: 0 }, "smooth");
+			$('.body-container').animate({ scrollTop: 0 }, "smooth");
+			}
+			}
+		})();/*]]>*/</script>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="text-align: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie help-button" onclick="showHelp()" title="Need help using the OnLine Expert?">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie remove-highlight-button" title="Remove highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="4" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Space Automation Professional  2021.1.2.0 OnLine Expert &gt;</span>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    <div class="side-content">
+                                        <div class="side-menu">
+                                            <p style="border-bottom: 1px solid #b8b8b8; margin-top: 0px;padding-bottom: 0px;">In this topic</p>
+                                            <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container=".body-container" data-scroll-container-on="only screen and (min-width: 1280px)" class="nocontent menu _Skins_SideMenu mc-component">
+                                                <li><a href="#AddEntryToPrintList">AddEntryToPrintList</a>
+                                                </li>
+                                                <ul>
+                                                    <li><a href="#Syntax">Syntax</a>
+                                                    </li>
+                                                    <li><a href="#Parameters">Parameters</a>
+                                                    </li>
+                                                    <li><a href="#ExamplePrintaplanogramusingaprintlist">Example: Print a planogram using a print list</a>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="TopicBody">
+                                                    <div role="main" id="mc-main-content">
+                                                        <h1 id="AddEntryToPrintList" data-magellan-target="AddEntryToPrintList">AddEntryToPrintList</h1>
+                                                        <p>This command enables you to add a new project/layout combination to a batch print (.psi) file. The print list can be an existing one, or it can be created by a script using the <a href="createprintlist.htm">CreatePrintList</a> command. Additions to the batch print list are automatically saved when the script is run. The print list entry is added to the print list each time this command is run in a script, which could result in numerous duplicate entries existing in the print list if the script is run multiple times. You may want comment out the line after it is run once to prevent duplicate print list entries. Otherwise, you can edit the print list in the Batch Print dialog box to remove the duplicate entries.</p>
+                                                        <p class="Note"><b class="NoteHeadingBold">Note</b>: If your projects and planograms are stored in a Category Knowledge Base database, you cannot use this command to create a batch print file. Instead, you must use Planogram Batch Printing option in Category Knowledge Base. See "Planogram Batch Printing" in the <i>Category Knowledge Base OnLine Expert</i>.</p>
+                                                        <h2 id="Syntax" data-magellan-target="Syntax">Syntax</h2>
+                                                        <h3>Visual Basic</h3>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code>AddEntryToPrintList ( _<br />&#160;&#160;&#160;&#160;PrintList <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span>, _<br />&#160;&#160;&#160;&#160;ProjectFile <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span>, _<br />&#160;&#160;&#160;&#160;LayoutFile <span style="color: #a71d5d; ">As</span> SpaceLayoutFile, _<br />&#160;&#160;&#160;&#160;Planogram <span style="color: #a71d5d; ">As</span> <span style="color: #a71d5d; ">String</span> _<br />)</code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h3>C#</h3>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: CSharp;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code><span style="color: #333333; font-weight: bold; ">AddEntryToPrintList</span>(<span style="color: #a71d5d; ">string</span> PrintList, <span style="color: #a71d5d; ">string</span> ProjectFile, SpaceLayoutFile LayoutFile, [<span style="color: #a71d5d; ">string</span> Planogram = <span style="font-weight: bold; ">null</span>])</code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h2 style="margin-top: 6pt;" id="Parameters" data-magellan-target="Parameters">Parameters</h2>
+                                                        <table style="width: 100%;mc-table-style: url('resources/tablestyles/field_descriptions.css');margin-left: 0;margin-right: auto;" class="TableStyle-Field_Descriptions" cellspacing="0">
+                                                            <col class="TableStyle-Field_Descriptions-Column-Column1" />
+                                                            <col class="TableStyle-Field_Descriptions-Column-Column2" />
+                                                            <thead>
+                                                                <tr class="TableStyle-Field_Descriptions-Head-Header1">
+                                                                    <th class="TableStyle-Field_Descriptions-HeadE-Column1-Header1">
+                                                                        <p>Parameter</p>
+                                                                    </th>
+                                                                    <th class="TableStyle-Field_Descriptions-HeadD-Column2-Header1">
+                                                                        <p>Description</p>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="TableStyle-Field_Descriptions-Body-Body1">
+                                                                    <td class="TableStyle-Field_Descriptions-BodyE-Column1-Body1" style="font-weight: bold;">
+                                                                        <p>PrintList</p>
+                                                                    </td>
+                                                                    <td class="TableStyle-Field_Descriptions-BodyD-Column2-Body1">
+                                                                        <p><span class="specialbold">String</span>. The path and name of the print list file to be created (CreatePrintList), the file used in printing (PrintUsingPrintList), or the file to which print entries are added (AddEntryToPrintList).</p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="TableStyle-Field_Descriptions-Body-Body2">
+                                                                    <td class="TableStyle-Field_Descriptions-BodyE-Column1-Body2" style="font-weight: bold;">
+                                                                        <p>ProjectFile</p>
+                                                                    </td>
+                                                                    <td class="TableStyle-Field_Descriptions-BodyD-Column2-Body2">
+                                                                        <p><span class="specialbold">String</span>. The path and name of the project file to add to the print list. </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="TableStyle-Field_Descriptions-Body-Body1">
+                                                                    <td class="TableStyle-Field_Descriptions-BodyE-Column1-Body1" style="font-weight: bold;">
+                                                                        <p>LayoutFile</p>
+                                                                    </td>
+                                                                    <td class="TableStyle-Field_Descriptions-BodyD-Column2-Body1">
+                                                                        <p><a href="spacelayoutfile.htm"><span class="specialbold">SpaceLayoutFile</span></a>. The path and name of the layout file to use when printing the specified project. Select a file or select one of the following options to select the appropriate layout:</p>
+                                                                        <ul>
+                                                                            <li><span class="specialbold">SpaceLayoutFile.SeeConfiguration</span>: Use the layout files specified on the <span class="specialbold">Files</span> tab of the Settings dialog box in Space Planning or Floor Planning.</li>
+                                                                            <li><span class="specialbold">SpaceLayoutFile.SeePlanogram</span>: Use the layout files specified on the <span class="specialbold">General</span> tab of the Planogram Properties dialog box in Space Planning.</li>
+                                                                            <li><span class="specialbold">SpaceLayoutFile.SeeProject</span>: Use the layout files specified on the <span class="specialbold">General</span> tab of the Project Properties dialog box in Space Planning or Floor Planning.</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="TableStyle-Field_Descriptions-Body-Body2">
+                                                                    <td class="TableStyle-Field_Descriptions-BodyB-Column1-Body2" style="font-weight: bold;">
+                                                                        <p>Planogram&#160;(optional)</p>
+                                                                    </td>
+                                                                    <td class="TableStyle-Field_Descriptions-BodyA-Column2-Body2">
+                                                                        <p><span class="specialbold">String</span>. The planogram from the project specified by the <b>ProjectFile</b> parameter to be added to the print list. If no planogram is specified, all planograms in the project are added to the print list.</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <h2 style="margin-top: 6pt;" id="ExamplePrintaplanogramusingaprintlist" data-magellan-target="ExamplePrintaplanogramusingaprintlist">Example: Print a planogram using a print list</h2>
+                                                        <h3>Classic style scripting </h3>
+                                                        <h4>Visual Basic</h4>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: VB;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code>SpacePlanning.CreatePrintList(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>)<br />SpacePlanning.AddEntryToPrintList(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>, <span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Samples\Space Planning Planograms\Sample - Coffee Makers.psa"</span>, <span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Space Planning\Sample Layout.psy"</span>, <span style="color: #df5000; ">"1 12' Coffee Makers"</span>)<br />SpacePlanning.PrintUsingPrintList(<span style="color: #df5000; ">"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>)</code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h4>C#</h4>
+                                                        <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                            <div style="mc-code-lang: CSharp;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"><pre><code>SpacePlanning.<span style="color: #333333; font-weight: bold; ">CreatePrintList</span>(<span style="color: #df5000; ">@"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>);<br />SpacePlanning.<span style="color: #333333; font-weight: bold; ">AddEntryToPrintList</span>(<span style="color: #df5000; ">@"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>, <span style="color: #df5000; ">@"C:\Program Files (x86)\JDA\Intactix\Samples\Space Planning Planograms\Sample - Coffee Makers.psa"</span>, <span style="color: #df5000; ">@"C:\Program Files (x86)\JDA\Intactix\Space Planning\Sample Layout.psy"</span>, <span style="color: #df5000; ">"1 12' Coffee Makers"</span>);<br />SpacePlanning.<span style="color: #333333; font-weight: bold; ">PrintUsingPrintList</span>(<span style="color: #df5000; ">@"C:\Program Files (x86)\JDA\Intactix\Space Planning\SamplePrintList.psi"</span>);</code></pre>
+                                                            </div>
+                                                        </div>
+                                                        <h3>Instance style scripting</h3>
+                                                        <p>Not Applicable</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar_Bottom mc-component nocontent" style="text-align: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="master-page-footer">
+                                            <div>
+                                                <p style="line-height: 100%;"><span class="mc-variable Variables.PROD_SHORT variable">Space Automation Professional</span> <span class="mc-variable Variables.PROD_VERSION variable">2021.1.2.0</span> <span class="mc-variable Variables.TECH_DOC_TYPE variable">OnLine Expert</span> </p>
+                                                <p style="line-height: 100%;">© <span class="mc-variable Variables.COPYRIGHT_START variable">2013-</span>2021 Blue Yonder Group, Inc. All rights reserved. <a href="legal_notice.htm">Legal notice</a></p>
+                                                <p style="line-height: 100%;">Contact: <a href="https://success.blueyonder.com/" target="_blank" title="Blue Yonder Customer Support" alt="Blue Yonder Customer Support">Customer Support</a> | <a href="https://blueyonder.com/services" target="_blank" title="Blue Yonder Services" alt="Blue Yonder Services">Services</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

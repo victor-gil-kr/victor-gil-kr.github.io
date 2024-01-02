@@ -1,0 +1,3012 @@
+/*<meta Version="9" />*/
+
+/* MadCap Table Style: */
+
+@media printPDF
+{
+	mcTableStyle
+	{
+		
+	}
+
+	mcTableColumnStyle
+	{
+		
+	}
+
+	mcTableColumnStyle
+	{
+		
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 12pt;
+		font-family: Calibri;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 11pt;
+		font-family: Calibri;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 11pt;
+		font-family: Calibri;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	mcTableStyle
+	{
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+	}
+
+	mcTableColumnStyle
+	{
+		
+	}
+
+	mcTableColumnStyle
+	{
+		
+	}
+
+	mcTableHeadStyle
+	{
+		font-size: 12pt;
+		font-family: Calibri;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	mcTableBodyStyle
+	{
+		font-size: 12pt;
+		font-family: Calibri;
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+	}
+
+	mcTableBodyStyle
+	{
+		cell-padding-left: 2px;
+		cell-padding-right: 2px;
+		cell-padding-top: 2px;
+		cell-padding-bottom: 2px;
+	}
+}
+
+mcTableStyle
+{
+	name: Field_Descriptions;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ffffff;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #ffffff;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #808080;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	max-id: 5;
+	margin-bottom: 6px;
+	margin-top: 4px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #808080;
+	name: Column1;
+	id: 0;
+	size: 20%;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #808080;
+	size: 80%;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #808080;
+	name: Header1;
+	id: 2;
+	background-color: #00a9e0;
+	cell-padding-left: 2px;
+	cell-padding-right: 2px;
+	cell-padding-top: 2px;
+	cell-padding-bottom: 2px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: Calibri;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #808080;
+	name: Body1;
+	id: 1;
+	cell-content-style-tag: p;
+	cell-padding-left: 6px;
+	cell-padding-right: 6px;
+	cell-padding-top: 6px;
+	cell-padding-bottom: 6px;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 4;
+	name: Body2;
+	background-color: #f1f1f2;
+	cell-padding-left: 6px;
+	cell-padding-right: 6px;
+	cell-padding-top: 6px;
+	cell-padding-bottom: 6px;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #808080;
+	cell-content-style-tag: p;
+}
+
+/* Cell Styles: */
+
+@media printPDF
+{
+	.TableStyle-Field_Descriptions
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body2
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body2 p
+	{
+		font-family: Calibri;
+		font-size: 11pt;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.TableStyle-Field_Descriptions
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column1-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column1-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadI-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadE-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadF-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadH-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadD-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadC-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadB-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadA-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column2-Header1
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-HeadG-Column2-Header1 p
+	{
+		color: #ffffff;
+		font-family: Calibri;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	.TableStyle-Field_Descriptions-FootI-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootE-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootF-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootH-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootD-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootC-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootB-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootA-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootG-Column1-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootI-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootE-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootF-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootH-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootD-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootC-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootB-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootA-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-FootG-Column2-
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body1
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body1 p
+	{
+		font-family: Calibri;
+		font-size: 12pt;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column1-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyI-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyE-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyF-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyH-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyD-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyC-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyB-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyA-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	.TableStyle-Field_Descriptions-BodyG-Column2-Body2
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+
+.TableStyle-Field_Descriptions
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #ffffff;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ffffff;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #808080;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #808080;
+	border-bottom-width: 1px;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Field_Descriptions-Column-Column1
+{
+	width: 20%;
+}
+
+.TableStyle-Field_Descriptions-Column-Column2
+{
+	width: 80%;
+}
+
+.TableStyle-Field_Descriptions-Head-Header1
+{
+	
+}
+
+.TableStyle-Field_Descriptions-HeadI-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadI-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadE-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadE-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadF-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadF-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadH-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadH-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadD-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadD-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadC-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadC-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadB-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadB-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadA-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadA-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadG-Column1-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadG-Column1-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadI-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadI-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadE-Column2-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadE-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadF-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadF-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadH-Column2-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadH-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadD-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-HeadD-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadC-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadC-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadB-Column2-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadB-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadA-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadA-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-HeadG-Column2-Header1
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00a9e0;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.TableStyle-Field_Descriptions-HeadG-Column2-Header1 p
+{
+	color: #ffffff;
+	font-family: Calibri;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.TableStyle-Field_Descriptions-FootI-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootI-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootE-Column1-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootE-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootF-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootF-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootH-Column1-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootH-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootD-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootD-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootC-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootC-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootB-Column1-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootB-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootA-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootA-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootG-Column1-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootG-Column1- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootI-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootI-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootE-Column2-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootE-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootF-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootF-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootH-Column2-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootH-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootD-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootD-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootC-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootC-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootB-Column2-
+{
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-FootB-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootA-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootA-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootG-Column2-
+{
+	
+}
+
+.TableStyle-Field_Descriptions-FootG-Column2- p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-Body-Body1
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column1-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column2-Body1
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-Body-Body2
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column1-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyI-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyE-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyF-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyH-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyD-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyC-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-right-width: 1px;
+	border-right-color: #808080;
+	border-right-style: solid;
+}
+
+.TableStyle-Field_Descriptions-BodyB-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyA-Column2-Body2 p
+{
+	
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column2-Body2
+{
+	background-color: #f1f1f2;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.TableStyle-Field_Descriptions-BodyG-Column2-Body2 p
+{
+	
+}
+

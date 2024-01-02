@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Console',c:0},{t:'My Project',c:0},{t:'Script',c:0},{t:'Script assembly',c:0},{t:'Script executable',c:0},{t:'Solution',c:0}]});
